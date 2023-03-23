@@ -1,0 +1,72 @@
+
+
+.profile {
+    position: relative;
+    background-image: url("../images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    height: 700%;
+    padding: 100px;
+    padding-left: 50px;
+    padding-right:900px;
+    padding-top: 100px;
+    color: rgb(14, 14, 15);
+    font-size: 15px;
+  }
+  .profile header {
+    color: rgb(0, 0, 0);
+    /* font-size: 5px; */
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .profilecard{
+    /* position: relative; */
+    background: #fffefa;
+    height: 50%;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  }
+  .profileform{
+    position: relative;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    color: rgb(73, 195, 239);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+  }
+  
+  .profileform .myInput {
+    width: 500px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 10px;
+    border: none;
+    color: rgb(6, 6, 6);
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);}
+  
+    .profileform .butt {
+      background:  #8acce7;
+      color: #fff;
+      width: 300px;
+      border: 2px solid#fff;
+      border-radius: 25px;
+      padding: 10px;
+      -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+      -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+      box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    }
+    .butt {
+      border: 2px solid#2579c3;
+    }
+    .butt:focus {
+      outline: none;
+    }
