@@ -17,7 +17,7 @@ else{
     if($stmt_result->num_rows>0){
         $data = $stmt_result->fetch_assoc();
         if($data['pass'] == $pass){
-            header("Location: http://localhost/shopping/html/shopping_login.html");
+            header("Location: http://localhost/shopping/html/payment.html");
         }else{
             echo "Invalid Email or password";
         }
