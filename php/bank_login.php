@@ -10,14 +10,14 @@ if($con->connect_error){
     die("Failed to connect : ".con->connect_error);
 }
 else{
-    $stmt =  $con->prepare("select * from cart_login where email = ?");
+    $stmt =  $con->prepare("select * from bank_login where email = ?");
     $stmt->bind_param("s",$email);
     $stmt->execute();
     $stmt_result = $stmt->get_result();
     if($stmt_result->num_rows>0){
         $data = $stmt_result->fetch_assoc();
         if($data['pass'] == $pass){
-            header("Location: http://localhost/shopping/html/cart.html");
+            header("Location: http://localhost/shopping/html/shopping_login.html");
         }else{
             echo "Invalid Email or password";
         }
